@@ -9,5 +9,5 @@ eight_puzzle = search.EightPuzzle((1, 2, 3, 4, 5, 7, 8, 6, 0))
 nqueens = search.NQueensProblem(8)
 romania_problem = search.GraphProblem('Arad', 'Craiova', search.romania_map)
 
-prob = search.PeakFindingProblem((0, 0), [[0, 5, 30, 20],[10, 5, 45, 20],[6,9,18,22]])
+prob = search.PeakFindingProblem((0, 0), [[0, 5, 30, 20],[10, 5, 45, 20],[6,9,18,22]]) #N,W,S,E considered to find peak
 print(search.hill_climbing(prob))
